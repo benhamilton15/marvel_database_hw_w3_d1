@@ -61,6 +61,9 @@ INSERT INTO people (name) VALUES ('Bart Simpson');
 
 DELETE FROM people WHERE id = 11;
 
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2019, '00:00');
+
+
 
 
 SELECT * FROM movies;
