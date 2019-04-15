@@ -53,15 +53,18 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
  -- hw begins here
 
-UPDATE people SET name = 'Krusty the Clown' WHERE id = 9;
+UPDATE people SET name = 'Krusty the Clown' WHERE id = 13;
 
-DELETE FROM movies WHERE id = 3;
+DELETE FROM movies WHERE id = 9;
 
 INSERT INTO people (name) VALUES ('Bart Simpson');
 
 DELETE FROM people WHERE id = 11;
 
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2019, '00:00');
+
+UPDATE movies SET show_time = '20:45' WHERE id = 7
+
 
 
 
@@ -73,3 +76,5 @@ SELECT * FROM people;
 SELECT name FROM people;
 
 SELECT name FROM people WHERE name = 'Homer Simpson';
+
+SELECT show_time FROM movies WHERE id = 3;
