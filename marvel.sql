@@ -59,6 +59,7 @@ DELETE FROM movies WHERE id = 3;
 
 INSERT INTO people (name) VALUES ('Bart Simpson');
 
+DELETE FROM people WHERE id = 11;
 
 
 
