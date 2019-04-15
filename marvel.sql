@@ -50,7 +50,17 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '22:10');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:00');
 
-UPDATE people SET name = 'Krusty the Clown' WHERE id = 13;
+
+ -- hw begins here
+
+UPDATE people SET name = 'Krusty the Clown' WHERE id = 9;
+
+DELETE FROM movies WHERE id = 3;
+
+INSERT INTO people (name) VALUES ('Bart Simpson');
+
+
+
 
 SELECT * FROM movies;
 
