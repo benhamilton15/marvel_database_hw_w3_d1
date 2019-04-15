@@ -57,3 +57,5 @@ SELECT * FROM movies;
 SELECT * FROM people;
 
 SELECT name FROM people;
+
+SELECT name FROM people WHERE name = 'Homer Simpson';
